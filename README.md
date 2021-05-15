@@ -6,6 +6,7 @@ It is a Music Player, that has additional functionality like fetching lyrics, fe
 The app has been developed in a Firebase environment with the songs stored in a Firebase database, and Java has been used as part of the backend to implement various logical actions.
 
 **To run locally:**
+
 **Prerequisites** - [Android Studio](https://developer.android.com/studio)
 
 1. Run Android Studio and choose the _get from version control_ option while creating a new project.
