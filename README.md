@@ -2,7 +2,7 @@
 
 This is a basic Android app developed as a project submission for Mobile Application Development Lab.
 
-It is a Music Player, that has additional functionality like fetching lyrics, fetching top tracks and artists based on country which have been achieved through the Musixmatch API.
+It is a Music Player, that has additional functionality like fetching lyrics, fetching top tracks and artists based on country which has been achieved through the Musixmatch API.
 The app has been developed in a Firebase environment with the songs stored in a Firebase database, and Java has been used as part of the backend to implement various logical actions.
 
 **To run locally:**
