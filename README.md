@@ -9,6 +9,6 @@ The app has been developed in a Firebase environment with the songs stored in a 
 
 **Prerequisites** - [Android Studio](https://developer.android.com/studio)
 
-1. Run Android Studio and choose the _get from version control_ option while creating a new project.
+1. Run Android Studio and choose the _**get from version control**_ option while creating a new project.
 2. Paste the link of this repository ```https://github.com/njmit123/Acoustix-A-Music-Player.git``` in the url field.
 3. Connect your Android device / use the Android emulator to run the app.
