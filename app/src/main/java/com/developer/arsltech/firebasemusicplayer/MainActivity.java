@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
                         textView.setSingleLine(true);
                         textView.setMaxLines(1);
-
+                        textView.setTextColor(getResources().getColor(R.color.white));
 
 
                         return view;
