@@ -14,7 +14,7 @@
         android:choiceMode="singleChoice"
         android:listSelector="@color/colorPrimaryDark"
         android:padding="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/jcplayer"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,5 +44,31 @@
         app:text_audio_current_duration_color="#FFFFFF"
         app:text_audio_duration_color="#FFFFFF"
         app:text_audio_title_color="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/jcplayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:text="Top Tracks" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:text="GET LYRICS" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
