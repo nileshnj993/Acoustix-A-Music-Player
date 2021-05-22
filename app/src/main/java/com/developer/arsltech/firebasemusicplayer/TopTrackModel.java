@@ -81,6 +81,20 @@ class headerModel {
 
 class bodyModel {
     List<track> track_list;
+    LyricsModel lyrics;
+
+    public bodyModel(LyricsModel lyrics) {
+        this.lyrics = lyrics;
+    }
+
+    public LyricsModel getLyrics() {
+        return lyrics;
+    }
+
+    public void setLyrics(LyricsModel lyrics) {
+        this.lyrics = lyrics;
+    }
+
     public List<track> getTrack_list() {
         return track_list;
     }
@@ -124,5 +138,21 @@ class trackModel {
 
     public void setTrack_name(String track_name) {
         this.track_name = track_name;
+    }
+}
+
+class LyricsModel {
+    String lyrics_body;
+
+    public String getLyrics_body() {
+        return lyrics_body;
+    }
+
+    public void setLyrics_body(String lyrics_body) {
+        this.lyrics_body = lyrics_body;
+    }
+
+    public LyricsModel(String lyrics_body) {
+        this.lyrics_body = lyrics_body;
     }
 }
