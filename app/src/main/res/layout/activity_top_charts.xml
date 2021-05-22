@@ -13,7 +13,7 @@
         android:background="#888888"
         android:gravity="center"
         android:padding="20px"
-        android:text="India's Top 10 Trending"
+        android:text="Trending in India"
         android:textColor="#B71C1C"
         android:textSize="25sp"
         android:textStyle="bold"
