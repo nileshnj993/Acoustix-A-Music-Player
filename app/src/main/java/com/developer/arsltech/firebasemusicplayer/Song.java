@@ -1,4 +1,4 @@
-package com.developer.arsltech.firebasemusicplayer;
+package com.developer.firebasemusicplayer;
 
 public class Song {
     private String songName,songUrl;
