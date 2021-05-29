@@ -1,4 +1,4 @@
-package com.developer.firebasemusicplayer;
+package com.developer.arsltech.firebasemusicplayer;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
