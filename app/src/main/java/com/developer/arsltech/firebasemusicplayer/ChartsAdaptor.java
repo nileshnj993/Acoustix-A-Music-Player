@@ -1,4 +1,4 @@
-package com.developer.firebasemusicplayer;
+package com.developer.arsltech.firebasemusicplayer;
 
 import android.content.Context;
 import android.view.LayoutInflater;
