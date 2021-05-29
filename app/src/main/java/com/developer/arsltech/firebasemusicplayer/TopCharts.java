@@ -1,4 +1,4 @@
-package com.developer.firebasemusicplayer;
+package com.developer.arsltech.firebasemusicplayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
